@@ -1,0 +1,147 @@
+{
+ "de.bmw.infotainment.vehicle.CDS": {
+  "instances": "1",
+  "attributes": {
+   "statusEngineSpeed2": "rs",
+   "statusEngineTemperature": "rs"
+  }
+ },
+ "de.bmw.infotainment.vehicle.CDS2": {
+  "instances": "1",
+  "attributes": {
+   "statusLongitudinalAccelerationMassCenter": "rs",
+   "statusLateralAccelerationMassCenter": "rs"
+  }
+ },
+ "de.bmw.infotainment.vehicle.Vehicle": {
+  "instances": "1",
+  "attributes": {
+   "statusNewCurrentUnitsStatusExt": "rs"
+  }
+ },
+ "de.bmw.infotainment.vehicle.Vehicle2": {
+  "instances": "1",
+  "attributes": {
+   "statusCarSpeed2": "rs",
+   "highVoltageStorageInfoToExternal": "s"
+  }
+ },
+ "de.bmw.infotainment.drivingexcitement.FES": {
+  "instances": "1",
+  "attributes": {
+   "statusSwitchDriveDynamicSport2": "rs",
+   "statusVehicleDynamicEngine": "rs",
+   "statusActualValueTorque2": "rs",
+   "statusFESVehicleDynamicSwitchHMI": "rs"
+  }
+ },
+ "de.bmw.infrastructure.analytics.BasicDataSet": {
+  "instances": "1",
+  "attributes": {
+   "basicDataSet": "s"
+  }
+ },
+ "de.bmw.infrastructure.EnvironmentalInformation": {
+  "instances": "1",
+  "attributes": {
+   "ExteriorTemperature": "s",
+   "UnitBN2020": "rs"
+  }
+ },
+ "de.bmw.infotainment.vehicle.TPMS": {
+  "instances": "1",
+  "attributes": {
+   "statusTyreTemperature": "rs",
+   "statusTyrePressure": "rs",
+   "statusTargetTyrePressure": "rs"
+  }
+ },
+ "de.bmw.infotainment.misc.MDrive": {
+  "instances": "1",
+  "attributes": {
+   "statusMSystem": "rs",
+   "dataDisplayGearbox": "s"
+  }
+ },
+ "de.bmw.infrastructure.VehicleInformation": {
+  "instances": "1",
+  "attributes": {
+   "statusGearboxDrive": "s",
+   "DataPowerTrain2": "s"
+  }
+ },
+ "de.bmw.infotainment.checkcontrol.CheckControlMaster": {
+  "instances": "1",
+  "attributes": {
+   "basicList": "rs"
+  }
+ },
+ "de.bmw.infotainment.KombiInterface_2": {
+  "instances": "1",
+  "attributes": {
+   "ccList": "rs",
+   "newCCMessage": "rs"
+  }
+ },
+ "de.bmw.infotainment.controlelements.FrontCCU": {
+  "instances": "1",
+  "attributes": {
+   "statusRotaryEncoderState": "rs"
+  }
+ },
+ "de.bmw.infrastructure.VehicleCondition": {
+  "instances": "1",
+  "attributes": {
+   "VehicleCondition": "s"
+  }
+ },
+ "de.bmw.infotainment.climate.climatemaster.ClimateMaster": {
+  "instances": "1",
+  "attributes": {
+   "statusClimateSystemOn": "rs",
+   "statusAirCondAC": "rs"
+  }
+ },
+ "de.bmw.infotainment.climate.Climate2": {
+  "instances": "1",
+  "attributes": {
+   "statusACFront": "rs",
+   "statusAirConditionDRStatus": "rs",
+   "statusActualValuePowerACCompressor": "rs"
+  }
+ },
+ "de.bmw.infotainment.climate.Climate": {
+  "instances": "1",
+  "attributes": {
+   "statusSeatHeatingDR": "rs",
+   "statusSeatHeatingPS": "rs",
+   "statusSeatHeatingDRR": "rs",
+   "statusSeatHeatingPSR": "rs"
+  }
+ },
+ "de.bmw.body.steeringwheelcomfort.SteeringWheelClimate": {
+  "instances": "1",
+  "attributes": {
+   "heatingState": "rs"
+  }
+ },
+ "de.bmw.infotainment.KombiIF": {
+  "instances": "1",
+  "attributes": {
+   "statusDisplayElectricalPowerDistribution": "rs"
+  }
+ },
+ "de.bmw.infotainment.drivingexcitement.Efficiencytainment2": {
+  "instances": "1",
+  "attributes": {
+   "statusBatteryTemperature": "rs",
+   "statusPowerRelativHybrid": "rs"
+  }
+ },
+ "de.bmw.infotainment.lsc.LSCDataSink": {
+  "instances": "1",
+  "attributes": {
+   "statusHighVoltageStorage": "s"
+  }
+ }
+}
